@@ -12,7 +12,7 @@ const userController = {
             .catch(err => res.status(400).json(err));
     },
     getUserById({ params }, res) {
-        User.findOne({ _id: params.id})
+        User.findOne({ _id: params.id })
             .populate({
                 path: 'thoughts',
                 select: '-__v'
