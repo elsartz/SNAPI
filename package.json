@@ -1,0 +1,24 @@
+{
+  "name": "snapi",
+  "version": "1.0.0",
+  "description": "Social Network API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsartz/SNAPI.git"
+  },
+  "author": "",
+  "license": "unlicense",
+  "bugs": {
+    "url": "https://github.com/elsartz/SNAPI/issues"
+  },
+  "homepage": "https://github.com/elsartz/SNAPI#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  }
+}
