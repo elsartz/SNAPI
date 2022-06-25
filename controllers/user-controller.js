@@ -33,7 +33,7 @@ const userController = {
             .catch(err => res.status(400).json(err));
     },
     updateUser({ params, body }, res) {
-        User.findOneAndUpdate({ _id: params._id }, body, {new: true, runValidators: true})
+        User.findOneAndUpdate({ _id: params.id }, body, {new: true, runValidators: true})
             .then(dbUserData => {
                 if (!dbUserData) {
                     return res.status(404).json({ message: 'User not found' });
@@ -55,7 +55,7 @@ const userController = {
     },
     createFriend({ params }, res) {
         User.findOneAndUpdate(
-            { _id: params.userId },
+            { _id: params.id },
             { $push: { 
                 friends: params.friendId
             }},
