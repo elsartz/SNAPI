@@ -27,6 +27,10 @@
 
   # Tests
     Screenshoots and usage video following:
+   ![Users](https://github.com/elsartz/SNAPI/blob/main/img/Screenshot_users.png)
+   ![Thoughts](https://github.com/elsartz/SNAPI/blob/main/img/Screenshot_thoughts.png)
+   ![Reactions-Replies](https://github.com/elsartz/SNAPI/blob/main/img/Screenshot_reactions-replies.png)
+   🏌️‍♂️[...go to video](https://youtu.be/Z3Y7l2BPSQE)
 
   # Questions
   If you have any questions, please contact me at [email](mailto:elsartz@gmail.com).
